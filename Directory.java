@@ -1,5 +1,7 @@
 import java.io.FileNotFoundException;
 
+//Interface implemented by all vesrions
+
 public interface Directory {
 
 
