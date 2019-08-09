@@ -5,7 +5,7 @@ import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
 
-
+//Array implementation
 public class ArrayStructure implements Directory {
 
     private Entry[] entries = new Entry[0];
@@ -16,7 +16,9 @@ public class ArrayStructure implements Directory {
     public ArrayStructure(){
 
     }
-
+    
+    //Starting menu
+    
     public void menu() throws EmptyArrayException, NumberFormatException, FileNotFoundException{
 
         System.out.println("Commands:"+"\n" + "\"load\" to load entries from the file"+"\n"
@@ -63,7 +65,9 @@ public class ArrayStructure implements Directory {
                 menu();
         }
     }
-
+    
+//Loading all entries from a file (tab separated name,initials and number)
+    
     public void load() throws EmptyArrayException, NumberFormatException, FileNotFoundException{
 
 
