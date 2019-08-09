@@ -1,6 +1,6 @@
 import java.io.FileNotFoundException;
 
-//Interface implemented by all vesrions
+//Interface implemented by all versions
 
 public interface Directory {
 
