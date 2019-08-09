@@ -6,6 +6,8 @@ import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
 
+//LinkedList implementation
+
 public class ListStructure implements Directory {
 
     private List<Entry> entries = new LinkedList<>();
