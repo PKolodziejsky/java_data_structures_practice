@@ -7,6 +7,7 @@ import java.util.Set;
 import java.io.File;
 import java.io.FileNotFoundException;
 
+//Creating a HashSet of Lists
 public class HashStructure implements Directory  {
 
     public HashStructure(){
@@ -15,7 +16,8 @@ public class HashStructure implements Directory  {
 
     private Set<List<Entry>> entries = new HashSet<>();
 
-
+//One list for every letter in an alphabet to store entries alphabetically
+    
     List<Entry> a_let = new LinkedList<>();
     List<Entry> b_let = new LinkedList<>();
     List<Entry> c_let = new LinkedList<>();
