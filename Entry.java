@@ -1,5 +1,6 @@
 import java.util.Comparator;
 
+//Class defining a single entry (person) in a file
 public class Entry implements Comparable{
 
     private String name;
